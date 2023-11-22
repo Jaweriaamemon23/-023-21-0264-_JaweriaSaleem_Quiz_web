@@ -27,6 +27,8 @@ const NavigationBar = () => {
           <Nav className="me-3"> {/* Add margin to the right side of the Nav containing the button */}
             <Button variant="danger">Sign In</Button>
           </Nav>
+          <br></br>
+          <br></br>
         </Navbar.Collapse>
       </Container>
     </Navbar>

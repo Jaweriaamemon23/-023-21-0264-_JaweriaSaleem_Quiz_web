@@ -9,6 +9,7 @@ import Image4 from '../Assets/teenyicons_left-solid.png';
 
 function Welcome() {
     return (
+
         <Carousel
         fade
         prevIcon={<img src={Image3} alt="prevIcon" />}
