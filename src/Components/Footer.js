@@ -13,8 +13,8 @@ function Footer() {
         <img
           src={image} // Replace with the actual path to your image
           alt="Your Image"
-          width="50"
-          height="50"
+          width="30"
+          height="30"
           className="mr-2" // Added margin to separate the image from text
         />
         All copyrights are reserved by Sukkur IBA University
