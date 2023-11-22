@@ -5,7 +5,7 @@ import image6 from '../Assets/Group 10.png'; // Make sure to use the correct pat
 export default function Statistics() {
   return (
     <>
-      <div className="container mt-">
+      <div className="container mt-4">
         <div className="row">
           <div className="col col-lg-6 col-md-4 col-sm-12 align-item-center justify-content-center">
             <h2><b>

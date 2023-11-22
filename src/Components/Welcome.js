@@ -12,8 +12,8 @@ function Welcome() {
 
         <Carousel
         fade
-        prevIcon={<img src={Image3} alt="prevIcon" />}
-        nextIcon={<img src={Image4} alt="nextIcon" />}
+        prevIcon={<img src={Image4} alt="prevIcon" />}
+        nextIcon={<img src={Image3} alt="nextIcon" />}
     >
         <Carousel.Item className="container d-flex justify-content-center">
             <img src={Image1} alt="img1" />
@@ -22,7 +22,7 @@ function Welcome() {
             <img src={Image2} alt="img2" />
         </Carousel.Item>
     </Carousel>
-  );
+      );
 }
 
 export default Welcome;

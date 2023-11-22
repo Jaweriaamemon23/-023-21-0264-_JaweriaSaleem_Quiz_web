@@ -5,19 +5,27 @@ function Footer() {
   const containerStyle = {
     padding: '20px', // Adjust the padding to increase the container size
     background: '#343a40', // Optional: You can customize the background color
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center', // Center the text
+  };
+
+  const imageStyle = {
+    marginRight: '10px', // Adjust the margin to separate the image from text
+    width: '30px',
+    height: '30px',
   };
 
   return (
     <>
-      <div style={containerStyle} className="text-white d-flex align-items-center justify-content-center mt-5">
+      <div style={containerStyle} className="text-white mt-9">
         <img
           src={image} // Replace with the actual path to your image
           alt="Your Image"
-          width="30"
-          height="30"
-          className="mr-2" // Added margin to separate the image from text
+          style={imageStyle}
         />
-        All copyrights are reserved by Sukkur IBA University
+        <span>All copyrights are reserved by Sukkur IBA University</span>
       </div>
     </>
   );
