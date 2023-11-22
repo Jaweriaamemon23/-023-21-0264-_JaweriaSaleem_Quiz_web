@@ -9,22 +9,18 @@ import Image4 from '../Assets/teenyicons_left-solid.png';
 
 function Welcome() {
     return (
-    <Carousel
-                fade
-                prevIcon={<img src={Image4} alt="prevIcon" />}
-                nextIcon={<img src={Image3} alt="nextIcon" />}
-            >
-                <br></br>
-                <br></br>
-                <Carousel.Item className="container d-flex justify-content-center">
-                    <img src={Image1} alt="img1" />
-                </Carousel.Item>
-                <Carousel.Item className="container d-flex justify-content-center">
-                    <img src={Image2} alt="img2" />
-                </Carousel.Item>
-            </Carousel>
-
-  
+        <Carousel
+        fade
+        prevIcon={<img src={Image3} alt="prevIcon" />}
+        nextIcon={<img src={Image4} alt="nextIcon" />}
+    >
+        <Carousel.Item className="container d-flex justify-content-center">
+            <img src={Image1} alt="img1" />
+        </Carousel.Item>
+        <Carousel.Item className="container d-flex justify-content-center">
+            <img src={Image2} alt="img2" />
+        </Carousel.Item>
+    </Carousel>
   );
 }
 
