@@ -6,10 +6,12 @@ import Image1 from '../Assets/image 3 (3).png';
 import Image2 from '../Assets/image 3 (2).png';
 import Image3 from '../Assets/teenyicons_right-solid.png';
 import Image4 from '../Assets/teenyicons_left-solid.png';
+import SecurityUpdate from './Securityupdate';
+import Statistics from './Statistics';
 
 function Welcome() {
     return (
-
+<>
         <Carousel
         fade
         prevIcon={<img src={Image4} alt="prevIcon" />}
@@ -22,7 +24,11 @@ function Welcome() {
             <img src={Image2} alt="img2" />
         </Carousel.Item>
     </Carousel>
-      );
+<Statistics/>   
+   <SecurityUpdate/>
+
+   </>
+   );
 }
 
 export default Welcome;
