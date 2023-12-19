@@ -1,7 +1,9 @@
 import React from 'react';
-import '../App.css'; // Correct import path for the CSS file
+import '../App.css'; 
 import { Form, Button } from 'react-bootstrap';
 import bg2 from '../Assets/Group 8666.png'
+
+
 const Maincomponent = () => {
   return (
     <>
@@ -14,7 +16,7 @@ const Maincomponent = () => {
                </b></h4>
               <div className="row">
                 <div className="col-md-6 form-group col-sm-12 col-lg-6">
-                    <h6 style={{paddingTop:'70px'}}>Name*</h6>
+                    <h6 style={{paddingTop:'70px'}}>Name *</h6>
                   <input
                     type="text"
                     name="name"
