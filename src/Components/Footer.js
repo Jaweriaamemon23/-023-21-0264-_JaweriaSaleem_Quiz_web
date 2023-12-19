@@ -3,8 +3,8 @@ import image from '../Assets/image 2 (5).png';
 
 function Footer() {
   const containerStyle = {
-    padding: '20px', // Adjust the padding to increase the container size
-    background: '#343a40', // Optional: You can customize the background color
+    padding: '20px', 
+      background: '#343a40',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
